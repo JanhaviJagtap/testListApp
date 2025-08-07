@@ -10,18 +10,14 @@ import SwiftUI
 struct ContentView: View {
     let store : Store
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            NavigationView{
-                List(store.productss){product in
-                    
+        NavigationView {
+            List(store.productss) { product in
+                NavigationLink(destination: ProductDetailView(product: product)) {
+                    SingleProduct(product: product)
                 }
             }
-            Text("Hello, world!")
+            .navigationTitle("The NRL rugby teams")
         }
-        .padding()
     }
 }
 
