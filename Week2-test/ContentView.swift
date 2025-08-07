@@ -8,11 +8,17 @@
 import SwiftUI
 
 struct ContentView: View {
+    let store : Store
     var body: some View {
         VStack {
             Image(systemName: "globe")
                 .imageScale(.large)
                 .foregroundStyle(.tint)
+            NavigationView{
+                List(store.productss){product in
+                    
+                }
+            }
             Text("Hello, world!")
         }
         .padding()
@@ -20,5 +26,5 @@ struct ContentView: View {
 }
 
 #Preview {
-    ContentView()
+    ContentView(store: Store())
 }

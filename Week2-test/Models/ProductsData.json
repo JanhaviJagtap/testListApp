@@ -1,0 +1,31 @@
+[
+    {
+      "id": 1,
+      "name": "Bulldogs",
+      "description": "Canterbury Bulldogs Rugby team",
+      "players": ["John", "Josh", "Andrew", "Matthew", "Jonathan", "Janhavi", "Anthony", "Tony", "Jason"],
+      "imageName": "bulldogs"
+    },
+    {
+      "id": 2,
+      "name": "Panthers",
+      "description": "Penrith Panthers",
+      "players": ["John", "Josh", "Andrew", "Matthew"],
+      "imageName": "panthers"
+    },
+    {
+      "id": 3,
+      "name": "Broncos",
+      "description": "Brisbane Broncos",
+      "players": ["John", "Josh", "Andrew", "Matthew"],
+      "imageName": "broncos"
+    },
+    {
+      "id": 4,
+      "name": "Sea Eagles",
+      "description": "Manly Warringah Sea Eagles",
+      "players": ["John", "Josh", "Andrew", "Matthew"],
+      "imageName": "manly"
+    }
+]
+

@@ -1,0 +1,18 @@
+//
+//  ProductDetailView.swift
+//  Week2-test
+//
+//  Created by Janhavi Jagtap on 6/8/2025.
+//
+
+import SwiftUI
+
+struct ProductDetailView: View {
+    var body: some View {
+        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+    }
+}
+
+#Preview {
+    ProductDetailView()
+}
